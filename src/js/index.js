@@ -6,9 +6,9 @@ botonAltTema.addEventListener("click", () => {
     body.classList.toggle("modo-dark"); 
     if (body.classList.contains("modo-dark")) {
         // body.classList.remove("modo-dark");
-        imgBotonTrocaTema.setAttribute("src", "./src/images/sun.png");
+        imgBotonTrocaTema.setAttribute("src", "./src/images/moon.png");
     } else {
         // body.classList.add("modo-dark");
-        imgBotonTrocaTema.setAttribute("src", "./src/images/moon.png");
+        imgBotonTrocaTema.setAttribute("src", "./src/images/sun.png");
     }
 })
